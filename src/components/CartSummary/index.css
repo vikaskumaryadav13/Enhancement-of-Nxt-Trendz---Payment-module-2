@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.order-total-value {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-value {
+    font-size: 30px;
+  }
+}
+
+.order-total-label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 550;
+  color: #616e7c;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 25px;
+  }
+}
+
+.total-items {
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 2px;
+  color: #616e7c;
+}
+
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 15px;
+  }
+}
+
+.checkout-button {
+  font-family: 'Roboto';
+  font-size: 13px;
+  border: none;
+  border-radius: 3.5px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
